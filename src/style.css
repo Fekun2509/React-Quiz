@@ -1,0 +1,80 @@
+body {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url('./images/background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 30px;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.answerBox {
+  display: flex;
+  border: 1px solid grey;
+  padding: 10px;
+  min-width: 90px;
+  justify-content: center;
+  border-radius: 6px;
+  cursor:pointer;
+}
+.quiz{
+  display: grid;
+  grid-template: 3 1;
+  padding: auto;
+}
+.quiz--answer{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  gap: 30px;
+}
+.nextButton{
+  display: flex;
+  padding: 10px;
+  width: 20%;
+  justify-content: center;
+  border-radius: 10px;
+  background-color: whitesmoke;
+  font-weight: bold;
+  cursor: pointer;
+}
+.buttonContainer {
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+}
+.overlay {
+  position: fixed;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url('./images/background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 2;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: auto;
+
+}
+.startButton{
+  padding: 10px;
+  background-color: whitesmoke;
+  cursor: pointer;
+  
+}
